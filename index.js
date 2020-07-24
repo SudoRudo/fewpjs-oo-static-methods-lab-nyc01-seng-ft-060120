@@ -15,7 +15,7 @@ class Formatter {
     for (let i = 0; i < arrayOfWords.length; i++ ){
       if (i === 0){
         result.push(this.capitalize(arrayOfWords[i]))
-      }else if(exceptions.include(arrayOfWords[i])){
+      }else if(exceptions.includes(arrayOfWords[i])){
         result.push(arrayOfWords[i])
       }else{
         result.push(this.capitalize(arrayOfWords[i]))
