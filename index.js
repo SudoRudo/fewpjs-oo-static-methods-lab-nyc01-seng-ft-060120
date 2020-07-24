@@ -8,6 +8,8 @@ class Formatter {
   }
   
   static titleize(string){
-    stri
+    let exceptions = [ 'the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from' ]
+    let result = [];
+    let arrayOfWords = string.split( " " )
   }
 }
