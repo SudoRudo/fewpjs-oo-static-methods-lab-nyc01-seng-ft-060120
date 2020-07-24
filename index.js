@@ -22,6 +22,6 @@ class Formatter {
       }
     }
     
-    return result
+    return result.toString
   }
 }
