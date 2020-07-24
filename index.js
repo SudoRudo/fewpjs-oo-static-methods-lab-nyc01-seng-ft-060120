@@ -12,6 +12,6 @@ class Formatter {
     let result = [];
     let arrayOfWords = string.split( " " )
     
-    arrayOfWords.
+    for ()
   }
 }
