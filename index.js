@@ -12,6 +12,10 @@ class Formatter {
     let result = [];
     let arrayOfWords = string.split( " " )
     
-    for ()
+    for (let i = 0; if i < arrayOfWords.length; i++ ){
+      if (i == 0){
+        result.push
+      }
+    }
   }
 }
