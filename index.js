@@ -21,5 +21,7 @@ class Formatter {
         result.push(this.capitalize(arrayOfWords[i]))
       }
     }
+    
+    return result
   }
 }
