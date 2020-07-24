@@ -8,13 +8,18 @@ class Formatter {
   }
   
   static titleize(string){
-    let exceptions = [ 'the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from' ]
+    let exceptions = [ 'the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from' ];
     let result = [];
-    let arrayOfWords = string.split( " " )
+    let arrayOfWords = string.split( " " );
     
     for (let i = 0; if i < arrayOfWords.length; i++ ){
       if (i == 0){
-        result.push
+        result.push(this.capitalize(arrayOfWords[i]))
+      }else if{
+        if exceptions.include(arrayOfWords[i]){
+          result.push(arrayOfWords[i])
+        }else
+        
       }
     }
   }
