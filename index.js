@@ -20,7 +20,6 @@ class Formatter {
         }else{
           result.push(this.capitalize(arrayOfWords[i]))
         }
-        
-      }
     }
   }
+}
