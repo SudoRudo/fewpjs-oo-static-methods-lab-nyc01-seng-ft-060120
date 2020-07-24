@@ -16,10 +16,10 @@ class Formatter {
       if (i === 0){
         result.push(this.capitalize(arrayOfWords[i]))
       }else if(exceptions.include(arrayOfWords[i])){
-          result.push(arrayOfWords[i])
-        }else{
-          result.push(this.capitalize(arrayOfWords[i]))
-        }
+        result.push(arrayOfWords[i])
+      }else{
+        result.push(this.capitalize(arrayOfWords[i]))
+      }
     }
   }
 }
