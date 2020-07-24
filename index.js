@@ -1,3 +1,9 @@
 class Formatter {
-  //add static methods here
+  static capitalize(string){
+    string.toUpperCase();
+  }
+  
+  static sanitize(string){
+    string.replace(/[^A-Za-z0-9-'], '' )
+  }
 }
