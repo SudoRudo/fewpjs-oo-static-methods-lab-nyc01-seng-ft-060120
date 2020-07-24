@@ -11,5 +11,7 @@ class Formatter {
     let exceptions = [ 'the', 'a', 'an', 'but', 'of', 'and', 'for', 'at', 'by', 'from' ]
     let result = [];
     let arrayOfWords = string.split( " " )
+    
+    arrayOfWords.
   }
 }
